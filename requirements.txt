@@ -2,3 +2,5 @@ torch
 hydra-core
 wandb
 omegaconf
+transformers
+datasets
