@@ -1,0 +1,28 @@
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+local_rank: 0
+world_size: 1
+
+run: 0
+context: 1024
+n_epochs: 10
+batch: 1
+lr: 1e-4
+batch_step: 512
+
+model_dir: ./models/
+loadpath:
+mode: train
+gpt_name: gpt2
+data_source: data
+
+horizon_loss:
+  chunk: 8
+  clamp: 3
+  kl_beta: 0.05
+  T: 0.9
+
+defaults:
+  - override hydra/job_logging: custom
