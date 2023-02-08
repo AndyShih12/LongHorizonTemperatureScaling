@@ -2,7 +2,7 @@
 
 This repository contains code for the paper:
 
-[Long Horizon Temperature Scaling]() \
+[Long Horizon Temperature Scaling](https://arxiv.org/abs/2302.03686) \
 by Andy Shih, Dorsa Sadigh, Stefano Ermon
 
 <br>
