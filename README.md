@@ -7,6 +7,8 @@ by Andy Shih, Dorsa Sadigh, Stefano Ermon
 
 <br>
 
+![](cover.gif)
+
 ## Installation
 ```
 pip install -r requirements.txt
@@ -24,3 +26,18 @@ WANDB_MODE=disabled torchrun --master_port=29603 --nproc_per_node=1 main_gpt2.py
 ```
 
 
+## Citation
+If you find our work useful, consider citing:
+```
+"Long Horizon Temperature Scaling"
+Andy Shih, Dorsa Sadigh, Stefano Ermon
+In Proceedings of the 40th International Conference on Machine Learning (ICML), 2023
+
+@inproceedings{shih2023longhorizon,
+  author    = {Andy Shih and Dorsa Sadigh and Stefano Ermon},
+  title     = {Long Horizon Temperature Scaling},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML)},
+  month     = {july},
+  year      = {2023},
+}
+```
